@@ -1,8 +1,10 @@
-header{
+header {
   width: 100%;
-  height: 80p;
-  background-color:#222;
-  color: white;
+  height: 416px; /* Set to match the image height */
+  background-image: url(""); /* Replace with your image path */
+  background-size: cover; /* Ensures the image covers the entire header */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents tiling */
   display: flex;
   justify-content: space-between;
   align-items: center;
