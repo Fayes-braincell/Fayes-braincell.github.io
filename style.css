@@ -4,7 +4,7 @@ body{
 header {
   width: 100%;
   height: 416px;
-  background-image: url("contestant no.1.png");
+  background-image: url("contestant\ no.1.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
