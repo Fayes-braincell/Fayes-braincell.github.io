@@ -3,22 +3,166 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <Title>Faye's Art Portfolio</Title>
+    <title>Faye's Art Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
   </head>
   <body>
+    <script src="script.js"></script>
+    <!-- Fixed Navigation Bar -->
     <header class="header">
-      <h1>My Art Portfolio</h1>
-    <div>
+      <h1>Favour Nwade's Portfolio</h1>
       <nav class="nav-bar">
         <ul>
-          <li><a class= "Home" href="#">Gallary</a></li>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#welcome">Welcome</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#social-media">Social Media</a></li>
+          <li><a href="#about-me">Oh me?</a></li>
         </ul>
-      </nav> 
-    </div>
+      </nav>
     </header>
 
+    <!-- Welcome Section -->
+    <section id="welcome" class="welcome-section">
+      <div class="welcome-content">
+        <div class="speech-bubble-container">
+          <div class="image-placeholder">
+            <!-- Image of you will go here -->
+          </div>
+          <div class="speech-bubble">
+            <p>HEY YOU!!</p>
+          </div>
+        </div>
+        
+        <div class="speech-bubble-container">
+          <div class="image-placeholder">
+            <!-- Image of you will go here -->
+          </div>
+          <div class="speech-bubble">
+            <p>Welcome to my portfolio</p>
+          </div>
+        </div>
+        
+        <div class="speech-bubble-container">
+          <div class="image-placeholder">
+            <!-- Image of you will go here -->
+          </div>
+          <div class="speech-bubble">
+            <p>Hopefully you find it fun here</p>
+          </div>
+        </div>
+        
+        <div class="speech-bubble-container">
+          <div class="image-placeholder">
+            <!-- Image of you will go here -->
+          </div>
+          <div class="speech-bubble pop">
+            <p>ALRIGHT! HAVE FUNNNNN</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+      <h2 class="section-title">My Projects</h2>
+      <div class="projects-container">
+        <div class="project-card">
+          <div class="project-preview">
+            <!-- Project preview image placeholder -->
+            <div class="preview-placeholder"></div>
+          </div>
+          <div class="project-info">
+            <h3>Project Name</h3>
+            <p>Project description goes here. This is where you'll describe what the project is about and what technologies you used.</p>
+          </div>
+        </div>
+        
+        <div class="project-development">
+          <h3>Development Process</h3>
+          <div class="dev-screenshots">
+            <div class="screenshot-container">
+              <div class="screenshot-placeholder"></div>
+              <p class="caption">Initial wireframe design</p>
+            </div>
+            <div class="screenshot-container">
+              <div class="screenshot-placeholder"></div>
+              <p class="caption">Adding core functionality</p>
+            </div>
+            <div class="screenshot-container">
+              <div class="screenshot-placeholder"></div>
+              <p class="caption">Final design implementation</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Social Media Section -->
+    <section id="social-media" class="social-media-section">
+      <h2 class="section-title">Social Media</h2>
+      <div class="social-links">
+        <a href="https://www.instagram.com/its_just_faye_again?igsh=Zzd2ejM4a3o5dmhs" target="_blank" class="social-link">
+          <div class="social-icon">
+            <i class="fab fa-instagram"></i>
+          </div>
+          <span>Instagram</span>
+        </a>
+        <a href="https://github.com/Fayes-braincell" target="_blank" class="social-link">
+          <div class="social-icon">
+            <i class="fab fa-github"></i>
+          </div>
+          <span>GitHub</span>
+        </a>
+        <a href="https://www.linkedin.com/in/favour-nwade-a21659343?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" class="social-link">
+          <div class="social-icon">
+            <i class="fab fa-linkedin"></i>
+          </div>
+          <span>LinkedIn</span>
+        </a>
+        <a href="https://www.codewars.com/users/Fayes-braincell" target="_blank" class="social-link">
+          <div class="social-icon">
+            <i class="fas fa-code"></i>
+          </div>
+          <span>CodeWars</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about-me" class="about-me-section">
+      <h2 class="section-title">Oh me?</h2>
+      
+      <div class="about-content">
+        <div class="image-placeholder top-right"></div>
+        
+        <p>So, you want to know more about me? Great! I actually have quite a bit to share—haha.</p>
+        
+        <p>I'm an artist (hopefully my website makes that clear), but I've also always had an interest in software. From a young age, I was fascinated by how technology worked. I spent time dismantling the remote-controlled cars my mom got me for Christmas, tinkering with the family laptop, trying to connect it to other devices, and even accidentally muting it—then spending years digging through every program trying to figure out how to undo what I'd done.</p>
+        
+        <p>For a while, it seemed like I was headed toward a future in hardware or cybersecurity. I remember being 14, sitting at my desk back in South Africa, planning my career path, the steps I'd need to take, and estimating the costs once I moved to the U.S. I even started learning HTML and CSS, but I quickly realized how difficult it would be without the right resources. So, I put that on hold and focused on learning more about the tech field in general.</p>
+        
+        <p>I actually took a Hardware and Cybersecurity class in my sophomore year of high school, and to be honest, it wasn't really for me. I hated how little I understood—mostly because I felt too bored in class to pay attention. I wasn't as hands-on as I'd hoped to be. I did enjoy building and dismantling a basic PC, but anything to do with cables, ports, or their functions bored me to death.</p>
+        
+        <p>That same year, I got the opportunity to learn about EVIT, and that's when I really got excited. I went on the tour, and to my expectations, I was genuinely intrigued by the class I eventually chose. I had considered taking Fashion Design or Graphic Design, but I ultimately decided I wanted to focus on a foundational career—one that would let me learn skills from other industries and integrate them in.</p>
+        
+        <div class="image-placeholder section-divider"></div>
+        
+        <h3>Software And App Design:</h3>
+        
+        <p>The class turned out to be exactly what I was looking for. Although I sometimes got distracted by the amazing friends I made and the odd interactions I had with others, I found myself far more engaged in a class I genuinely enjoyed. I came in with the plan that by the end of the course, I'd be working on an art portfolio for my personal projects and developing various programs using the resources available to me.</p>
+        
+        <div class="image-placeholder bottom-right"></div>
+        
+        <p>While I haven't fully reached that goal yet, I've gained solid hands-on experience with HTML and CSS, and I've earned my Python certification. My website is still in development, my art is steadily coming together, and the features I've envisioned are slowly taking shape as new ideas keep coming in.</p>
+        
+        <div class="image-placeholder far-bottom-right"></div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2025 Favour Nwade. All rights reserved.</p>
+    </footer>
   </body>
 </html>
